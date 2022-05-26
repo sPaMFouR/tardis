@@ -1,0 +1,94 @@
+.. |ZENODO| replace:: kerzendorf_wolfgang_2022_6527890
+
+.. code-block:: bibtex
+
+    @software{kerzendorf_wolfgang_2022_6527890,
+      author       = {Kerzendorf, Wolfgang and
+                      Sim, Stuart and
+                      Vogl, Christian and
+                      Williamson, Marc and
+                      Pássaro, Ezequiel and
+                      Flörs, Andreas and
+                      Camacho, Yssa and
+                      Jančauskas, Vytautas and
+                      Harpole, Alice and
+                      Nöbauer, Ulrich and
+                      Lietzau, Stefan and
+                      Mishin, Mikhail and
+                      Tsamis, Fotis and
+                      Boyle, Aoife and
+                      Shingles, Luke and
+                      Gupta, Vaibhav and
+                      Desai, Karan and
+                      Klauser, Michael and
+                      Beaujean, Frederik and
+                      Suban-Loewen, Adam and
+                      Heringer, Epson and
+                      Barna, Barnabás and
+                      Gautam, Gaurav and
+                      Fullard, Andrew and
+                      Cawley, Kevin and
+                      Smith, Isaac and
+                      Singhal, Jaladh and
+                      Arya, Atharva and
+                      Sondhi, Dhruv and
+                      Barbosa, Talytha and
+                      Yu, Jenny and
+                      Patel, Maryam and
+                      O'Brien, Jack and
+                      Varanasi, Kaushik and
+                      Gillanders, James and
+                      Savel, Arjun and
+                      Reinecke, Martin and
+                      Eweis, Youssef and
+                      Bylund, Tomas and
+                      Bentil, Laud and
+                      Eguren, Jordi and
+                      Alam, Arib and
+                      Bartnik, Matthew and
+                      Magee, Mark and
+                      Shields, Joshua and
+                      Livneh, Ran and
+                      Rajagopalan, Srinath and
+                      Chitchyan, Sona and
+                      Mishra, Sashank and
+                      Reichenbach, John and
+                      Jain, Rinkle and
+                      Floers, Andreas and
+                      Brar, Antreev and
+                      Singh, Sourav and
+                      Selsing, Jonatan and
+                      Sofiatti, Caroline and
+                      Talegaonkar, Chinmay and
+                      Bot, TARDIS and
+                      Kowalski, Nathan and
+                      Yap, Kevin and
+                      Patel, Pratik and
+                      Sharma, Sampark and
+                      Prasad, Shilpi and
+                      Venkat, Shashank and
+                      Dasgupta, Debajyoti and
+                      Zaheer, Musabbiha and
+                      Gupta, Suyash and
+                      Volodin, Dmitry and
+                      Patra, Nilesh and
+                      Singh Rathore, Parikshit and
+                      Lemoine, Thom and
+                      Sarafina, Nance and
+                      Kolliboyina, Chaitanya and
+                      Sandler, Morgan and
+                      Nayak U, Ashwin and
+                      Aggarwal, Yash and
+                      Kumar, Atul and
+                      Holas, Alexander and
+                      Kharkar, Atharwa and
+                      kumar, aman and
+                      Wahi, Ujjwal},
+      title        = {tardis-sn/tardis: TARDIS v2022.05.08},
+      month        = may,
+      year         = 2022,
+      publisher    = {Zenodo},
+      version      = {release-2022.05.08},
+      doi          = {10.5281/zenodo.6527890},
+      url          = {https://doi.org/10.5281/zenodo.6527890}
+    }
