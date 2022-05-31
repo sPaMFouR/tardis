@@ -341,53 +341,11 @@
 <tr class="row-even"><td><p>default</p></td>
 <td colspan="2"><p>False</p></td>
 </tr>
-<tr class="row-odd"><td rowspan="10"><ul class="simple">
-<li><p>tracking</p></li>
-</ul>
-</td>
-<td><p>type</p></td>
-<td colspan="2"><p><em>object</em></p></td>
-</tr>
-<tr class="row-even"><td><p>default</p></td>
-<td colspan="2"></td>
-</tr>
-<tr class="row-odd"><td colspan="3"><p>properties</p></td>
-</tr>
-<tr class="row-even"><td rowspan="3"><ul class="simple">
-<li><p>track_rpacket</p></li>
-</ul>
-</td>
-<td colspan="2"><p>Allows for Tracking the properties of the RPackets in Single Packet Loop</p></td>
-</tr>
-<tr class="row-odd"><td><p>type</p></td>
-<td><p><em>boolean</em></p></td>
-</tr>
-<tr class="row-even"><td><p>default</p></td>
-<td><p>False</p></td>
-</tr>
 <tr class="row-odd"><td rowspan="3"><ul class="simple">
-<li><p>initial_array_length</p></li>
+<li><p>enable_nonhomologous_expansion</p></li>
 </ul>
 </td>
-<td colspan="2"><p>Configures the initial array length for the RPacketCollection Properties arrays</p></td>
-</tr>
-<tr class="row-even"><td><p>type</p></td>
-<td><p><em>number</em></p></td>
-</tr>
-<tr class="row-odd"><td><p>default</p></td>
-<td><p>10</p></td>
-</tr>
-<tr class="row-even"><td><ul class="simple">
-<li><p>description</p></li>
-</ul>
-</td>
-<td colspan="2"><p>Sets up tracking for Montecarlo</p></td>
-</tr>
-<tr class="row-odd"><td rowspan="3"><ul class="simple">
-<li><p>debug_packets</p></li>
-</ul>
-</td>
-<td colspan="3"><p>Decide whether to go into debugging mode. [EXPERIMENTAL FEATURE DO NOT RELY ON IT]</p></td>
+<td colspan="3"><p>Enables nonhomologous expansion. Treats shells as piece-wise homologous areas for velocity-radius dependence.</p></td>
 </tr>
 <tr class="row-even"><td><p>type</p></td>
 <td colspan="2"><p><em>boolean</em></p></td>
@@ -395,31 +353,85 @@
 <tr class="row-odd"><td><p>default</p></td>
 <td colspan="2"><p>False</p></td>
 </tr>
+<tr class="row-even"><td rowspan="10"><ul class="simple">
+<li><p>tracking</p></li>
+</ul>
+</td>
+<td><p>type</p></td>
+<td colspan="2"><p><em>object</em></p></td>
+</tr>
+<tr class="row-odd"><td><p>default</p></td>
+<td colspan="2"></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>properties</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="3"><ul class="simple">
+<li><p>track_rpacket</p></li>
+</ul>
+</td>
+<td colspan="2"><p>Allows for Tracking the properties of the RPackets in Single Packet Loop</p></td>
+</tr>
+<tr class="row-even"><td><p>type</p></td>
+<td><p><em>boolean</em></p></td>
+</tr>
+<tr class="row-odd"><td><p>default</p></td>
+<td><p>False</p></td>
+</tr>
 <tr class="row-even"><td rowspan="3"><ul class="simple">
+<li><p>initial_array_length</p></li>
+</ul>
+</td>
+<td colspan="2"><p>Configures the initial array length for the RPacketCollection Properties arrays</p></td>
+</tr>
+<tr class="row-odd"><td><p>type</p></td>
+<td><p><em>number</em></p></td>
+</tr>
+<tr class="row-even"><td><p>default</p></td>
+<td><p>10</p></td>
+</tr>
+<tr class="row-odd"><td><ul class="simple">
+<li><p>description</p></li>
+</ul>
+</td>
+<td colspan="2"><p>Sets up tracking for Montecarlo</p></td>
+</tr>
+<tr class="row-even"><td rowspan="3"><ul class="simple">
+<li><p>debug_packets</p></li>
+</ul>
+</td>
+<td colspan="3"><p>Decide whether to go into debugging mode. [EXPERIMENTAL FEATURE DO NOT RELY ON IT]</p></td>
+</tr>
+<tr class="row-odd"><td><p>type</p></td>
+<td colspan="2"><p><em>boolean</em></p></td>
+</tr>
+<tr class="row-even"><td><p>default</p></td>
+<td colspan="2"><p>False</p></td>
+</tr>
+<tr class="row-odd"><td rowspan="3"><ul class="simple">
 <li><p>logger_buffer</p></li>
 </ul>
 </td>
 <td colspan="3"><p>Provides option to not log every line.</p></td>
 </tr>
-<tr class="row-odd"><td><p>type</p></td>
+<tr class="row-even"><td><p>type</p></td>
 <td colspan="2"><p><em>number</em></p></td>
 </tr>
-<tr class="row-even"><td><p>default</p></td>
+<tr class="row-odd"><td><p>default</p></td>
 <td colspan="2"><p>1</p></td>
 </tr>
-<tr class="row-odd"><td rowspan="3"><ul class="simple">
+<tr class="row-even"><td rowspan="3"><ul class="simple">
 <li><p>single_packet_seed</p></li>
 </ul>
 </td>
 <td colspan="3"><p>If debug_packets is true, this is the seed for the only packet.</p></td>
 </tr>
-<tr class="row-even"><td><p>type</p></td>
+<tr class="row-odd"><td><p>type</p></td>
 <td colspan="2"><p><em>number</em></p></td>
 </tr>
-<tr class="row-odd"><td><p>default</p></td>
+<tr class="row-even"><td><p>default</p></td>
 <td colspan="2"><p>-1</p></td>
 </tr>
-<tr class="row-even"><td><p>additionalProperties</p></td>
+<tr class="row-odd"><td><p>additionalProperties</p></td>
 <td colspan="3"><p>False</p></td>
 </tr>
 </tbody>

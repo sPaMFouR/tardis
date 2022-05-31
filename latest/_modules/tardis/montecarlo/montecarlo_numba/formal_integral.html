@@ -404,6 +404,8 @@ def numba_formal_integral(
         self.numba_model = NumbaModel(
             self.runner.r_inner_i,
             self.runner.r_outer_i,
+            self.runner.r_inner_i / self.model.time_explosion.to(&quot;s&quot;).value,
+            self.runner.r_outer_i / self.model.time_explosion.to(&quot;s&quot;).value,
             self.model.time_explosion.to(&quot;s&quot;).value,
         )
         self.numba_plasma = numba_plasma_initialize(

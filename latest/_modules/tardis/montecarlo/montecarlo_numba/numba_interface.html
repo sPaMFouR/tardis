@@ -128,12 +128,14 @@ numba_model_spec = [
     (&quot;r_inner&quot;, float64[:]),
     (&quot;r_outer&quot;, float64[:]),
     (&quot;time_explosion&quot;, float64),
+    (&quot;v_inner&quot;, float64[:]),
+    (&quot;v_outer&quot;, float64[:]),
 ]
 
 
 @jitclass(numba_model_spec)
 class NumbaModel(object):
-    def __init__(self, r_inner, r_outer, time_explosion):
+    def __init__(self, r_inner, r_outer, v_inner, v_outer, time_explosion):
         &quot;&quot;&quot;
         Model for the Numba mode
 
@@ -141,10 +143,14 @@ class NumbaModel(object):
         ----------
         r_inner : numpy.ndarray
         r_outer : numpy.ndarray
+        v_inner : numpy.ndarray
+        v_outer : numpy.ndarray
         time_explosion : float
         &quot;&quot;&quot;
         self.r_inner = r_inner
         self.r_outer = r_outer
+        self.v_inner = v_inner
+        self.v_outer = v_outer
         self.time_explosion = time_explosion
 
 

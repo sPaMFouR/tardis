@@ -313,6 +313,7 @@ MAX_SEED_VAL = 2**32 - 1
         self.r_inner_cgs = model.r_inner.to(&quot;cm&quot;).value
         self.r_outer_cgs = model.r_outer.to(&quot;cm&quot;).value
         self.v_inner_cgs = model.v_inner.to(&quot;cm/s&quot;).value
+        self.v_outer_cgs = model.v_outer.to(&quot;cm/s&quot;).value
 
     def _initialize_packets(self, T, no_of_packets, iteration, radius):
         # the iteration is added each time to preserve randomness
